@@ -1,25 +1,5 @@
 /**
  * 			Documentation 
- *   
- *   Possible Improvements
- *   
- *  1. The appearance of the GUI. The negative space of the JFrame is wasteful. I
- *     would have liked to add additional components. Such as an instruction menu
- *     to guide the user through operation. Time become the enemy unfortunately. 
- *     See Point #3 from Lessons Learned.
- *   
- *  2. Improving the Account class. The class functions properly, but I think 
- *  	   there are better ways to achieve the same result. For example, when 
- *  	   calculating the number of withdrawals, I use a counter from CreateGUI class
- *  	   that is passed to Account along with the user input. The setWithdraw method
- *  	   then needs to have double and int arguments to match. Therefore, "Transfer
- *  	   To" button also withdraws so the counter is passed with the input again. 
- *  	   I think it's unnecessary and I just used there as a sort of placeholder 
- *  	   to match the parameters of setWithdraw. 
- *  
- *  3. Displaying the balance in JOptionPane. I wanted to use a method to display
- *     the balance to minimize code re-usage, but couldn't properly get the feature
- *     to function.
  * 
  * 		Test Case 1 - Verifying Withdraw from Savings
  * 
