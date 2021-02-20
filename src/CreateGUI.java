@@ -1,24 +1,5 @@
 /**
  * 			Documentation 
- * 
- * 	Lessons Learned 
- * 
- * 	1. Creating a functional GUI was a learning experience for me. All aspects 
- * 	   of Swing were foreign to me prior to this assignment. It took many attempts
- * 	   to get all aspects of the GUI to function properly. Specifically, the buttons.
- * 	   Initially, I had one ActionListener for all 4 buttons with one very long chain
- * 	   of if/else statements. The code looked ugly and confusing so I created an 
- * 	   ActionListener for each button for clarity. 
- *  
- * 	2. Using multiple classes within one program. I did not have much experience 
- * 	   programming outside of one class. I was familiar with creating instances of
- * 	   other classes from previous courses but never with a program of this size 
- * 	   and scope.
- *   
- *  3. This is by far the largest programming assignment I have been tasked with. 
- *     Allocating the enough time to brainstorm, code, and complete a project like
- *     this is essential. I do not believe I started early enough as there are 
- *     aspects I would have like to do better and more efficiently.
  *   
  *   Possible Improvements
  *   
@@ -39,18 +20,6 @@
  *  3. Displaying the balance in JOptionPane. I wanted to use a method to display
  *     the balance to minimize code re-usage, but couldn't properly get the feature
  *     to function.
- *   
- *    Approach
- *    
- *  1. Began with building the GUI. This was the most foreign concept of this 
- *     assignment, therefore I started there to confirm the window appeared and
- *     functioned properly. 
- *   
- *  2. Filled in the remainder of the assignment as I went. I worked on each button
- *     and tested. Then the requirements of the withdraw button, tested. Then 
- *     created the required JOptionPane messages, tested. Then the InsufficentFunds 
- *     class, tested. Followed by the withdrawal service charge, tested. See, Lessons
- *     Learned, point #3. 
  * 
  * 		Test Case 1 - Verifying Withdraw from Savings
  * 
