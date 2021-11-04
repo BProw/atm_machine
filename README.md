@@ -1,7 +1,7 @@
 # atm_machine
 
-## Interactive ATM machine built w/ Java Swing
+## Simple ATM machine built w/ Java Swing
 
 
-* **Sample screen grab of random checking balance**  
+* **Sample screen grab of randomized checking balance**  
 ![Checking accnt](screen_grab/atm.jpg) 
